@@ -6,16 +6,16 @@ function Navigation() {
         <nav>
             <ul>
                 <li>
-                    <a href="#one">Contact/Resume</a>
+                    <a href="#one">About Me</a>
                 </li>
                 <li>
-                    <a href="#two">Homework Section 1</a>
+                    <a href="#two">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#three">Homework Section 2</a>
+                    <a href="#three">Contact</a>
                 </li>
                 <li>
-                    <a href="#four">Homework Section 3</a>
+                    <a href="#four">Resume</a>
                 </li>
             </ul>
         </nav>

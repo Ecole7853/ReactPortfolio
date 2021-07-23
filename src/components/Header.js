@@ -5,7 +5,7 @@ function Header() {
     return(
         <>
        <h1>
-            Eric Cole
+       Eric Cole
         </h1>
         <Navigation/>
         </>
