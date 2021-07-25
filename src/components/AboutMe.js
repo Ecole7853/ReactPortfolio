@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "./Navigation"
-import face from "../images/Face.jpg"
-import cityridge from "../images/cityridge.jpg"
+import face from "./images/Face.jpg"
+import cityridge from "./images/cityridge.jpg"
 
 function AboutMe() {
     return (
@@ -10,7 +10,7 @@ function AboutMe() {
                 <div id="aboutMe">
                 <h2>About Me</h2>
                 <div id="imgContainer">
-                    <img class="pic" src={face}/>
+                    <img class="pic" src= "./images/Face.jpg"/>
                     <img class="pic" src={cityridge}/>
                     </div>  
                         <div id="about">

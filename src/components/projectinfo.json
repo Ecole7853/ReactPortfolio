@@ -1,0 +1,14 @@
+[
+    {
+        "title":"Horiseon Webpage",
+        "hrefpath":"https://ecole7853.github.io/Horiseon-webpage-homework-/",
+        "image":"/components/images/Screenshot.png",
+        "alt":"Horiseon Image"
+    },
+    {
+        "title":"Code Quiz",
+        "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
+        "image":"/components/images/CodeQuiz.png",
+        "alt":"Code Quiz Image"
+    }
+]

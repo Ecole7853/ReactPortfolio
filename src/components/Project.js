@@ -1,10 +1,14 @@
 import React from "react";
+import screenshot from "../images/Screenshot.png"
 
-function Project() {
+
+function Project(props) {
+    console.log(props)
     return (
         <>
         <div id="work">
-            <a href="https://ecole7853.github.io/Horiseon-webpage-homework-/"><img class="imageContainer" src="../images/screenshot.png"/></a>
+            <h2>{props.title}</h2>
+            <a href={props.hrefpath}><img class="imageContainer" alt={props.alt} src={screenshot}/></a>
         </div>
         </>
 )}
