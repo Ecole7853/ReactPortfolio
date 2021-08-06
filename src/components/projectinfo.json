@@ -2,13 +2,99 @@
     {
         "title":"Horiseon Webpage",
         "hrefpath":"https://ecole7853.github.io/Horiseon-webpage-homework-/",
-        "image":"/components/images/Screenshot.png",
-        "alt":"Horiseon Image"
+        "image":"./images/Screenshot.png",
+        "alt":"Horiseon Image",
+        "github":"https://github.com/Ecole7853/Horiseon-webpage-homework-"
     },
     {
         "title":"Code Quiz",
         "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
-        "image":"/components/images/CodeQuiz.png",
-        "alt":"Code Quiz Image"
+        "image":"./images/CodeQuiz.png",
+        "alt":"Code Quiz Image",
+        "github":"https://github.com/Ecole7853/CodeQuiz"
+    },
+    {
+        "title":"Password Generator",
+        "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
+        "image":"./images/CodeQuiz.png",
+        "alt":"Code Quiz Image",
+        "github":""
+    },
+    {
+        "title":"Code Quiz",
+        "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
+        "image":"./images/CodeQuiz.png",
+        "alt":"Code Quiz Image",
+        "github":""
+    },
+    {
+        "title":"Code Quiz",
+        "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
+        "image":"./images/CodeQuiz.png",
+        "alt":"Code Quiz Image",
+        "github":""
+    },
+    {
+        "title":"Code Quiz",
+        "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
+        "image":"./images/CodeQuiz.png",
+        "alt":"Code Quiz Image",
+        "github":""
+    },
+    {
+        "title":"Code Quiz",
+        "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
+        "image":"./images/CodeQuiz.png",
+        "alt":"Code Quiz Image",
+        "github":""
+    },
+    {
+        "title":"Horiseon Webpage",
+        "hrefpath":"https://ecole7853.github.io/Horiseon-webpage-homework-/",
+        "image":"./images/Screenshot.png",
+        "alt":"Horiseon Image",
+        "github":"https://github.com/Ecole7853/Horiseon-webpage-homework-"
+    },
+    {
+        "title":"Code Quiz",
+        "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
+        "image":"./images/CodeQuiz.png",
+        "alt":"Code Quiz Image",
+        "github":"https://github.com/Ecole7853/CodeQuiz"
+    },
+    {
+        "title":"Password Generator",
+        "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
+        "image":"./images/CodeQuiz.png",
+        "alt":"Code Quiz Image",
+        "github":""
+    },
+    {
+        "title":"Code Quiz",
+        "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
+        "image":"./images/CodeQuiz.png",
+        "alt":"Code Quiz Image",
+        "github":""
+    },
+    {
+        "title":"Code Quiz",
+        "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
+        "image":"./images/CodeQuiz.png",
+        "alt":"Code Quiz Image",
+        "github":""
+    },
+    {
+        "title":"Code Quiz",
+        "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
+        "image":"./images/CodeQuiz.png",
+        "alt":"Code Quiz Image",
+        "github":""
+    },
+    {
+        "title":"Code Quiz",
+        "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
+        "image":"./images/CodeQuiz.png",
+        "alt":"Code Quiz Image",
+        "github":""
     }
 ]

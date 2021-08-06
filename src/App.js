@@ -1,22 +1,20 @@
-import logo from './logo.svg';
-import './reset.css';
 import './App.css';
-import React from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Project from "./components/Project";
-import AboutMe from "./components/AboutMe";
-import Portfolio from "./components/Portfolio";
+import React, { useState } from "react";
+import Home from "./components/Home";
+import ProfileContainer from "./components/ProfileContainer";
+import {BrowserRouter as Route, Switch, Router} from 'react-router-dom'
 
 function App() {
+
   return (
-    <div className="App">
-      <Header/>
-      <AboutMe/>
-      <Portfolio/>
-      <Footer/>
+    <div>
+      <Router>
+      <Switch>
+      <Route path="/" component={Home} />
+      <Route path="/portfolio" component={ProfileContainer}/>
+      </Switch>
+      </Router>
     </div>
   );
 }
-
 export default App;

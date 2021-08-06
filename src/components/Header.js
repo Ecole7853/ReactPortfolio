@@ -1,13 +1,14 @@
 import React from "react";
 import Navigation from "./Navigation"
 
-function Header() {
+function Header(props) {
+    console.log(props);
     return(
         <>
        <h1>
        Eric Cole
         </h1>
-        <Navigation/>
+        <Navigation pageChanger = {props.pageChanger} navColor={props.navColor} currentPage = {props.currentPage}/>
         </>
     )
 }

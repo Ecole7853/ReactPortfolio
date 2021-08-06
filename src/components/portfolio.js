@@ -6,15 +6,15 @@ function Portfolio() {
     return(
       
         <div id="portfolio">
-            <h1>
-                My Works
-            </h1>
-                {Projectinfo.map(project =>
-                    <Project title={project.title} hrefpath={project.hrefpath} image={project.image} alt={project.alt}/>
+            <h2>
+                My Projects
+            </h2>
+                <div className="workSection">{Projectinfo.map(project =>
+                    <Project title={project.title} hrefpath={project.hrefpath} image={project.image} alt={project.alt} github={project.github}/>
                     
                 )}
+                </div>
         </div>
-    
     )
 }
 
