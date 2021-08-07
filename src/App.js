@@ -1,8 +1,8 @@
 import './App.css';
 import React from "react";
 import Home from "./components/Home";
-import {BrowserRouter as Router, Route} from 'react-router-dom'
-import ProfileContainer from "./components/ProfileContainer"
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import ProfileContainer from "./components/ProfileContainer";
 import ContactMe from "./components/ContactMe";
 import Portfolio from "./components/Portfolio";
 import AboutMe from "./components/AboutMe";
