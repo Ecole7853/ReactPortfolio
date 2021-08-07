@@ -3,7 +3,7 @@ import React from "react";
 import Home from "./components/Home";
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import ProfileContainer from "./components/ProfileContainer"
-import ContactMe from "./components/ContactMe"
+import ContactMe from "./components/ContactMe";
 import Portfolio from "./components/Portfolio";
 import AboutMe from "./components/AboutMe";
 import Resume from "./components/Resume";
