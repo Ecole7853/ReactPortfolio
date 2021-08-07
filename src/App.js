@@ -1,13 +1,13 @@
 import './App.css';
 import React from "react";
-import Home from "./components/Home";
+import Home from "./Components/Home";
 import {BrowserRouter as Router, Route} from 'react-router-dom';
-import ProfileContainer from "./components/ProfileContainer";
-import ContactMe from "./components/ContactMe";
-import Portfolio from "./components/Portfolio";
-import AboutMe from "./components/AboutMe";
-import Resume from "./components/Resume";
-import Footer from "./components/Footer";
+import ProfileContainer from "./Components/ProfileContainer";
+import ContactMe from "./Components/ContactMe";
+import Portfolio from "./Components/Portfolio";
+import AboutMe from "./Components/AboutMe";
+import Resume from "./Components/Resume";
+import Footer from "./Components/Footer";
 
 function App() {
 
