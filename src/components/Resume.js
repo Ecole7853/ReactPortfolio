@@ -1,10 +1,12 @@
 import React from "react";
+import Header from "./Header";
 
-
-
-function Resume(props) {
+function Resume() {
     return(
         <>
+
+        <Header />        
+        <div id="resume">
         <a id="resumeHref" href="https://www.docdroid.net/h7IR3xI/exampleresume-pdf">This is my Resume</a>
         <div id="myProfs">
         <h3>My proficiencies</h3>
@@ -19,6 +21,7 @@ function Resume(props) {
         <li>robo3t</li>
         <li>MySQL</li>
         </ul>
+        </div>
         </div>
         </>
     )

@@ -1,8 +1,43 @@
 [
     {
+        "title":"New Space Times",
+        "hrefpath":"https://obscure-tor-43671.herokuapp.com/",
+        "image":"./images/SpaceApp.png",
+        "alt":"Space Image",
+        "github":"https://github.com/Ecole7853/NewSpaceTimes"
+    },
+    {
+        "title":"Recipe Mixer",
+        "hrefpath":"https://synag.github.io/project_1_recipe_mixer/index.html",
+        "image":"./images/RecipeMixer.png",
+        "alt":"Horiseon Image",
+        "github":"https://github.com/synag/project_1_recipe_mixer"
+    },
+    {
+        "title":"Peer Connections",
+        "hrefpath":"https://boiling-lowlands-90882.herokuapp.com/",
+        "image":"./images/PeerConnections.png",
+        "alt":"peer-connections",
+        "github":"https://github.com/ryanascherr/peer-connections"
+    },
+    {
+        "title":"Multi-city Weather tracking App",
+        "hrefpath":"https://ecole7853.github.io/WeatherPage/",
+        "image":"./images/WeatherApp.png",
+        "alt":"Weather Generator App Image",
+        "github":"https://github.com/Ecole7853/WeatherPage"
+    },
+    {
+        "title":"Daily Planner",
+        "hrefpath":"https://ecole7853.github.io/DailyPlanner/",
+        "image":"./images/DailyPlanner.png",
+        "alt":"Daily Planner App Image",
+        "github":"https://github.com/Ecole7853/DailyPlanner"
+    },
+    {
         "title":"Horiseon Webpage",
         "hrefpath":"https://ecole7853.github.io/Horiseon-webpage-homework-/",
-        "image":"./images/Screenshot.png",
+        "image":"./images/HoriseonPage.png",
         "alt":"Horiseon Image",
         "github":"https://github.com/Ecole7853/Horiseon-webpage-homework-"
     },
@@ -15,86 +50,9 @@
     },
     {
         "title":"Password Generator",
-        "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
-        "image":"./images/CodeQuiz.png",
+        "hrefpath":"https://ecole7853.github.io/PasswordGenerator/",
+        "image":"./images/PwGen.png",
         "alt":"Code Quiz Image",
-        "github":""
-    },
-    {
-        "title":"Code Quiz",
-        "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
-        "image":"./images/CodeQuiz.png",
-        "alt":"Code Quiz Image",
-        "github":""
-    },
-    {
-        "title":"Code Quiz",
-        "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
-        "image":"./images/CodeQuiz.png",
-        "alt":"Code Quiz Image",
-        "github":""
-    },
-    {
-        "title":"Code Quiz",
-        "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
-        "image":"./images/CodeQuiz.png",
-        "alt":"Code Quiz Image",
-        "github":""
-    },
-    {
-        "title":"Code Quiz",
-        "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
-        "image":"./images/CodeQuiz.png",
-        "alt":"Code Quiz Image",
-        "github":""
-    },
-    {
-        "title":"Horiseon Webpage",
-        "hrefpath":"https://ecole7853.github.io/Horiseon-webpage-homework-/",
-        "image":"./images/Screenshot.png",
-        "alt":"Horiseon Image",
-        "github":"https://github.com/Ecole7853/Horiseon-webpage-homework-"
-    },
-    {
-        "title":"Code Quiz",
-        "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
-        "image":"./images/CodeQuiz.png",
-        "alt":"Code Quiz Image",
-        "github":"https://github.com/Ecole7853/CodeQuiz"
-    },
-    {
-        "title":"Password Generator",
-        "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
-        "image":"./images/CodeQuiz.png",
-        "alt":"Code Quiz Image",
-        "github":""
-    },
-    {
-        "title":"Code Quiz",
-        "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
-        "image":"./images/CodeQuiz.png",
-        "alt":"Code Quiz Image",
-        "github":""
-    },
-    {
-        "title":"Code Quiz",
-        "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
-        "image":"./images/CodeQuiz.png",
-        "alt":"Code Quiz Image",
-        "github":""
-    },
-    {
-        "title":"Code Quiz",
-        "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
-        "image":"./images/CodeQuiz.png",
-        "alt":"Code Quiz Image",
-        "github":""
-    },
-    {
-        "title":"Code Quiz",
-        "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
-        "image":"./images/CodeQuiz.png",
-        "alt":"Code Quiz Image",
-        "github":""
+        "github":"https://github.com/Ecole7853/PasswordGenerator"
     }
 ]

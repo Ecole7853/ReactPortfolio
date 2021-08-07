@@ -6,10 +6,10 @@ function Home() {
     return(
         <>
         <div id="homePage">
-            <h1>
-                Welcome
-            </h1>
-            <button><Link to="/portfolio">Click Me</Link></button>
+            <h2>
+                Welcome to my Portfolio!
+            </h2>
+            <button id="welcomeButton"><Link to="/ProfileContainer">Enter here!</Link></button>
         </div>
         </>
     )

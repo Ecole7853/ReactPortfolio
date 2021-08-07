@@ -1,11 +1,13 @@
 import React from "react";
 import Project from "./Project";
 import Projectinfo from "./projectinfo";
+import Header from "./Header";
 
 function Portfolio() {
     return(
       
-        <div id="portfolio">
+        <div id="portfolio">  
+        <Header />
             <h2>
                 My Projects
             </h2>

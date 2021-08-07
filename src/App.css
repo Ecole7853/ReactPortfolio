@@ -94,9 +94,31 @@ h3{
       background-color: red;
   }
 
+  #contactLink {
+      font-size: 45px;
+  }
+
+  #resume {
+      display: flex;
+      margin-top: 50px;
+      margin-bottom: 100px;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  #contactContainer {
+      width: 100px;
+      height: 100px;
+      display: flex;
+      margin: 0 auto;
+      color: white;
+  }
+
   #aboutMe {
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
       margin-top: 10px;
       color: white;
       font-size: 20px;
@@ -107,18 +129,25 @@ h3{
   #about {
       width:1000px;
       font-size: 30px;
-      /* /* display: flex;
-      flex-direction: column;
-      justify-content: center;
+      display: flex;
+      flex-direction: column; 
       align-items: center; 
-      text-align: center;*/
-      margin: 0 auto;
+      text-align: center; 
+
       margin-top: 25px;
   } 
   #about a {
       font-size: 25px;
       color: black;
   }
+
+#welcomeButton {
+    background-color: rgb(83, 83, 83);
+    color: white;
+    font-size: 20px;
+
+}
+
   .pic {
       width: 500px;
       height: 400px;

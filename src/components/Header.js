@@ -8,7 +8,7 @@ function Header(props) {
        <h1>
        Eric Cole
         </h1>
-        <Navigation pageChanger = {props.pageChanger} navColor={props.navColor} currentPage = {props.currentPage}/>
+        <Navigation/>
         </>
     )
 }

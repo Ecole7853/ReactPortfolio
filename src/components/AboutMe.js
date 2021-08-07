@@ -1,12 +1,11 @@
 import React from "react";
-import Navigation from "./Navigation"
-// import face from "./images/Face.jpg"
-// import cityridge from "./images/cityridge.jpg"
+import Header from "./Header";
 
 function AboutMe() {
     console.log(window.location.href)
     return (
         <>
+             <Header />
             <div className="top">
                 <div id="aboutMe">
                 <h2>About Me</h2>

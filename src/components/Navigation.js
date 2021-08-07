@@ -1,21 +1,22 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
-function Navigation(props) {
+function Navigation() {
     return(
         <>
         <nav>
             <ul id="navItems">
                 <li>
-                    <a className={window.location.href==="AboutMe"?"current": ""} id="aboutMeLink" onClick = {() => props.pageChanger("AboutMe")} href="#AboutMe">About Me</a>
+                    <Link to="/AboutMe">About Me</Link>
                 </li>
                 <li>
-                    <a className={props.navColor===2?"current": ""} id="portfolioLink" onClick = {() => props.pageChanger("Portfolio")} href="#Portfolio">Portfolio</a>
+                    <Link to="/Portfolio">Portfolio</Link>
                 </li>
                 <li>
-                    <a className={props.navColor===3?"current": ""} id="contactMeLink" onClick = {() => props.pageChanger("ContactMe")} href="#ContactMe">Contact Me</a>
+                    <Link to="/ContactMe">Contact Me</Link>
                 </li>
                 <li>
-                    <a className={props.navColor===4?"current": ""} id="resumeLink" onClick = {() => props.pageChanger("Resume")} href="#Resume">Resume</a>
+                    <Link to="/Resume">Resume</Link>
                 </li>
             </ul>
         </nav>
