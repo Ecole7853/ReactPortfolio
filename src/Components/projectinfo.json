@@ -51,8 +51,8 @@
     {
         "title":"Password Generator",
         "hrefpath":"https://ecole7853.github.io/PasswordGenerator/",
-        "image":"./images/PwGen.png",
-        "alt":"Code Quiz Image",
+        "image":"./images/PasswordGen.png",
+        "alt":"Password Generator Image",
         "github":"https://github.com/Ecole7853/PasswordGenerator"
     }
 ]
