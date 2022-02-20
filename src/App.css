@@ -1,13 +1,15 @@
 html {
-    background-color: gray;
+    background-color: black;
 }
 .App { 
     text-align: center;
 }
 #appContainer {
-    background-color: lightgray;
+    background-color: black;
     border-radius: 15px;
     padding: 8px;
+    width: 900px;
+    height: 100vh;
 }
 
 h3{
@@ -280,6 +282,9 @@ h3{
     width: 550px;
     justify-content: center;
     color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
   @media screen and (max-width: 767px) {
