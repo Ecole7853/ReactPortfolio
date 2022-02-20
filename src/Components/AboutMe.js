@@ -9,11 +9,6 @@ function AboutMe() {
             <div className="top">
                 <div id="aboutMe">
                     <h2>About Me</h2>
-                    <div id="h2Box">
-                        <div id="imgContainer">
-                            <img className="pic" src="./images/Face.jpg" />
-                            
-                        </div>
                         <div id="about">
                             <p id="aboutText">
                                 Hello world!

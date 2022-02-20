@@ -7,6 +7,10 @@ function Header(props) {
         <>
        <h1>
        Eric Cole
+       <div id="h2Box"/>
+            <div id="imgContainer">
+            <img className="pic" src="./images/Face.jpg" />
+        </div>
         </h1>
         <Navigation/>
         </>
