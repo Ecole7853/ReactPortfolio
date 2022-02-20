@@ -21,18 +21,22 @@ h3{
 
 #navAbout {
     background-color: black;
+    border-radius: 15px;
 }
 
 #navResume {
     background-color: black;
+    border-radius: 15px;
 }
 
 #navPortfolio {
     background-color: black;
+    border-radius: 15px;
 }
 
 #navContact {
     background-color: black;
+    border-radius: 15px;
 }
 
 #homePage {
