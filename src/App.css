@@ -5,11 +5,13 @@ html {
     text-align: center;
 }
 #appContainer {
-    background-color: black;
+    background-color: gray;
     border-radius: 15px;
     padding: 8px;
     width: 900px;
-    height: 100vh;
+    height: 100vh;'
+    display:flex;
+    justify-content: center;
 }
 
 h3{
@@ -279,7 +281,6 @@ h3{
 
 #botFooter {
     display: flex;
-    width: 550px;
     justify-content: center;
     color: white;
     margin: 0;
