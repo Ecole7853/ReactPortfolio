@@ -22,24 +22,25 @@ h3{
 #navAbout {
     background-color: black;
     border-radius: 15px;
+    padding: 8px;
 }
 
 #navResume {
     background-color: black;
     border-radius: 15px;
-    padding: 5px;
+    padding: 8px;
 }
 
 #navPortfolio {
     background-color: black;
     border-radius: 15px;
-    padding: 5px;
+    padding: 8px;
 }
 
 #navContact {
     background-color: black;
     border-radius: 15px;
-    padding: 5px;
+    padding: 8px;
 }
 
 #homePage {
