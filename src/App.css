@@ -3,7 +3,11 @@ html {
 }
 .App { 
     text-align: center;
-
+}
+#appContainer {
+    background-color: lightgray;
+    border-radius: 15px;
+    padding: 8px;
 }
 
 h3{

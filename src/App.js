@@ -11,7 +11,7 @@ function App() {
 
   return (  
   <Router>
-    <div>
+    <div id="appContainer">
       <Route exact path="/"> 
       <AboutMe />
       </Route>
