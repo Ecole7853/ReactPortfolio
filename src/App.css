@@ -1,7 +1,9 @@
+.html {
+    background-color: gray;
+}
+.App { 
+    text-align: center;
 
-.App {
-  text-align: center;
-  background-color: gray;
 }
 
 h3{
