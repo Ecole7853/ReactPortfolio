@@ -263,6 +263,12 @@ h3{
     padding: 8px;
 }
 
+#botFooter {
+    display: flex;
+    width: 550px;
+    justify-content: center;
+}
+
   @media screen and (max-width: 767px) {
       /* ALL < TABLET */
      }
