@@ -12,9 +12,9 @@ h3{
 #navItems {
     display: flex;
     justify-content: center;
+    color: purple;
 }
 * {
-    color: purple;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
