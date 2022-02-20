@@ -8,7 +8,7 @@ function AboutMe() {
              <Header />
             <div className="top">
                 <div id="aboutMe">
-                <h2>About Me</h2>
+                <h2>About Me1234</h2>
                 <div id="imgContainer">
                     <img className="pic" src= "./images/Face.jpg"/>
                     </div>  

@@ -1,6 +1,3 @@
-html {
-    background-color: black;
-}
 
 .App {
   text-align: center;
@@ -20,7 +17,7 @@ h3{
 }
 
 #homePage {
-    background-color: black;
+    background-color: #6e6e6e;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -39,7 +36,7 @@ h3{
       justify-content: space-between;
       align-items: center;
       padding: 1%; 
-      background-image: linear-gradient(to top left, rgb(40, 47, 146), #1a144e);
+      background-image: linear-gradient(to top left, rgb(40, 47, 146), #4e1414);
   }
   h1 {
       font-size: 70px;

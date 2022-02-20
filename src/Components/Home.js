@@ -9,7 +9,7 @@ function Home() {
             <h2>
                 Welcome to my Portfolio!
             </h2>
-            <button id="welcomeButton"><Link to="/ProfileContainer">Enter here!</Link></button>
+            <button id="welcomeButton"><Link to="/AboutMe">Enter here!</Link></button>
         </div>
         </>
     )
