@@ -7,13 +7,6 @@
         "github":"https://github.com/Ecole7853/NewSpaceTimes"
     },
     {
-        "title":"Recipe Mixer",
-        "hrefpath":"https://synag.github.io/project_1_recipe_mixer/index.html",
-        "image":"./images/RecipeMixer.png",
-        "alt":"Horiseon Image",
-        "github":"https://github.com/synag/project_1_recipe_mixer"
-    },
-    {
         "title":"Peer Connections",
         "hrefpath":"https://boiling-lowlands-90882.herokuapp.com/",
         "image":"./images/PeerConnections.png",
@@ -26,27 +19,6 @@
         "image":"./images/WeatherApp.png",
         "alt":"Weather Generator App Image",
         "github":"https://github.com/Ecole7853/WeatherPage"
-    },
-    {
-        "title":"Daily Planner",
-        "hrefpath":"https://ecole7853.github.io/DailyPlanner/",
-        "image":"./images/DailyPlanner.png",
-        "alt":"Daily Planner App Image",
-        "github":"https://github.com/Ecole7853/DailyPlanner"
-    },
-    {
-        "title":"Horiseon Webpage",
-        "hrefpath":"https://ecole7853.github.io/Horiseon-webpage-homework-/",
-        "image":"./images/HoriseonPage.png",
-        "alt":"Horiseon Image",
-        "github":"https://github.com/Ecole7853/Horiseon-webpage-homework-"
-    },
-    {
-        "title":"Code Quiz",
-        "hrefpath":"https://ecole7853.github.io/CodeQuiz/",
-        "image":"./images/CodeQuiz.png",
-        "alt":"Code Quiz Image",
-        "github":"https://github.com/Ecole7853/CodeQuiz"
     },
     {
         "title":"Password Generator",
