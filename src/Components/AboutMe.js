@@ -9,9 +9,9 @@ function AboutMe() {
             <div className="top">
                 <div id="aboutMe">
                     <div id="h2Box">
-                        <h2>About Me</h2>
-                        <div id="imgContainer">
+                    <div id="imgContainer">
                             <img className="pic" src="./images/Face.jpg" />
+                        <h2>About Me</h2>
                         </div>
                         <div id="about">
                             <p id="aboutText">
