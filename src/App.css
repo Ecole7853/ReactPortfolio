@@ -12,7 +12,8 @@ h3{
 #navItems {
     display: flex;
     justify-content: center;
-    color: purple;
+    background-color: black;
+
 }
 * {
     margin: 0;
