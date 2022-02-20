@@ -245,6 +245,24 @@ h3{
     flex-direction: column;
 }
 
+#gitHub {
+    background-color: black;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+#facebook {
+    background-color: black;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+#linkedIn {
+    background-color: black;
+    border-radius: 15px;
+    padding: 8px;
+}
+
   @media screen and (max-width: 767px) {
       /* ALL < TABLET */
      }
