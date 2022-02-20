@@ -12,13 +12,27 @@ h3{
 #navItems {
     display: flex;
     justify-content: center;
-    background-color: black;
-
 }
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+#navAbout {
+    background-color: black;
+}
+
+#navResume {
+    background-color: black;
+}
+
+#navPortfolio {
+    background-color: black;
+}
+
+#navContact {
+    background-color: black;
 }
 
 #homePage {
