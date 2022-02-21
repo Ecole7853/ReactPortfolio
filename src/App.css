@@ -1,14 +1,17 @@
 html {
-    background-color: black;
+    background-color: white;
 }
 .App { 
     text-align: center;
 }
+h2 {
+    color: lightskyblue;
+}
 #appContainer {
-    background-color: gray;
+    background-color: white;
     border-radius: 15px;
     padding: 8px;
-    width: 55%;
+    width: 100%;
     margin: auto;
     height: 100vh;
     justify-content: center;
@@ -28,33 +31,37 @@ h3{
     justify-content: center;
 }
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px 10px 0px 10px;
+    padding: 0px 10px 10px 10px;
     box-sizing: border-box;
 }
 
 #navAbout {
-    background-color: black;
+    background-color: darkcyan;
     border-radius: 15px;
     padding: 8px;
+    box-shadow: 10px 5px 5px black;
 }
 
 #navResume {
-    background-color: black;
+    background-color: darkcyan;
     border-radius: 15px;
     padding: 8px;
+    box-shadow: 10px 5px 5px black;
 }
 
 #navPortfolio {
-    background-color: black;
+    background-color: darkcyan;
     border-radius: 15px;
     padding: 8px;
+    box-shadow: 10px 5px 5px black;
 }
 
 #navContact {
-    background-color: black;
+    background-color: darkcyan;
     border-radius: 15px;
     padding: 8px;
+    box-shadow: 10px 5px 5px black;
 }
 
 #homePage {
@@ -120,10 +127,12 @@ h3{
 
   #aboutText {
       font-size: 24px;
+      margin: 10px;
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
       width: 600px;  
+      color: darkcyan;
   }
 
 .current {
@@ -162,16 +171,7 @@ h3{
   .top a {
       color: white;
   }
-  #about {
-      width:1000px;
-      font-size: 30px;
-      display: flex;
-      flex-direction: column; 
-      align-items: center; 
-      text-align: center; 
 
-      margin-top: 25px;
-  } 
   #about a {
       font-size: 25px;
       color: black;
@@ -201,12 +201,7 @@ h3{
   .bottom {
       margin-top: 25px;
   }
-  h2 {
-
-      text-align: center;
-      font-size: 32px;
-      color: white;
-  }
+ 
   footer {
       display: flex;
       justify-content: space-around;
@@ -234,6 +229,9 @@ h3{
   }
 
 .workSection {
+    background-color: teal;
+    margin: 15px;
+    padding: 10px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap:wrap;
@@ -246,6 +244,7 @@ h3{
 }
 
 #resumeUl {
+    color: darkgray;
     display: flex;
     flex-direction: column;
 }
@@ -258,30 +257,30 @@ h3{
 
 #work {
     align-items: center;
-    margin: 5px;
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: lightgray;
     border-radius: 15px;
-    padding: 8px;
+    width: 48%;
+    margin-bottom: 15px;
 }
 
 #gitHub {
-    background-color: black;
+    background-color: teal;
     border-radius: 15px;
     padding: 8px;
     color: white;
 }
 
 #facebook {
-    background-color: black;
+    background-color: teal;
     border-radius: 15px;
     padding: 8px;
     color: white;
 }
 
 #linkedIn {
-    background-color: black;
+    background-color: teal;
     border-radius: 15px;
     padding: 8px;
     color: white;
@@ -294,6 +293,21 @@ h3{
     margin: 0;
     padding: 40px;
     box-sizing: border-box;
+}
+
+#headerName {
+    color: lightskyblue;
+    size: 30px;
+    padding: 15px;
+    margin: 15px;
+    display:flex;
+    justify-content: space-between;
+}
+
+#portfolio {
+    color: darkcyan;
+    display:flex;
+    justify-content: center;
 }
 
   @media screen and (max-width: 767px) {

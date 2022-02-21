@@ -3,16 +3,18 @@ import Navigation from "./Navigation"
 
 function Header(props) {
     console.log(props);
-    return(
+    return (
         <>
-       <h1>
-       Eric Cole
-       <div id="h2Box"/>
-            <div id="imgContainer">
-            <img className="pic" src="./images/Face.jpg" />
-        </div>
-        </h1>
-        <Navigation/>
+        <div id="h2Box">
+                 <Navigation />
+                <h1>
+                    <div id="headerName">Eric Cole
+                        <div id="imgContainer">
+                        <img className="pic" src="./images/Face.jpg" />
+                        </div>
+                    </div>
+                </h1>
+            </div> 
         </>
     )
 }

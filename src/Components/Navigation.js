@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import pdf from "../assets/resumewcover.pdf" 
 
 function Navigation() {
     return(
@@ -9,14 +10,14 @@ function Navigation() {
                 <li id="navAbout">
                     <Link to="/AboutMe">About Me</Link>
                 </li>
-                <li id="navPortfolio">
+                {/* <li id="navPortfolio">
                     <Link to="/Portfolio">Portfolio</Link>
-                </li>
+                </li> */}
                 <li id="navContact">
                     <Link to="/ContactMe">Contact Me</Link>
                 </li>
                 <li id="navResume">
-                    <Link to="/Resume">Resume</Link>
+                <a href={pdf} target="_blank">Resume</a>
                 </li>
             </ul>
         </nav>
