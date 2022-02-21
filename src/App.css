@@ -235,6 +235,7 @@ h3{
     display: flex;
     justify-content: space-evenly;
     flex-wrap:wrap;
+    border-radius: 15px;
 }
 
 #myProfs {
@@ -263,7 +264,6 @@ h3{
     border-radius: 15px;
     width: 48%;
     margin-bottom: 15px;
-    border-radius: 15px;
 }
 
 #gitHub {
