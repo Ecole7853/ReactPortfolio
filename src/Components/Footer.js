@@ -4,23 +4,17 @@ function Footer() {
   return (
     <>
       <footer id="botFooter">
-        <a href="https://github.com/Ecole7853" id="buttons" target="_blank">
-          My GitHub
-        </a>
+        <a href="https://github.com/Ecole7853" id="github" target="_blank"></a>
         <a
           href="https://linkedin.com/in/ecole7853/"
-          id="buttons"
+          id="linkedin"
           target="_blank"
-        >
-          My LinkedIn
-        </a>
+        ></a>
         <a
           href="https://www.facebook.com/eric.cole.980"
-          id="buttons"
+          id="facebook"
           target="_blank"
-        >
-          My facebook
-        </a>
+        ></a>
       </footer>
     </>
   );
