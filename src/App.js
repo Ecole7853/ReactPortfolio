@@ -1,5 +1,4 @@
 import "./App.css";
-import "./reset.css";
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./Components/Header";
@@ -12,7 +11,7 @@ import Project from "./Components/Project";
 function App() {
   return (
     <Router>
-      <div id="appContainer">
+      <div id="appContainer" className="bg-black h-4 w-3">
         <Header />
         <Routes>
           <Route path="/" element={<Landing />}></Route>

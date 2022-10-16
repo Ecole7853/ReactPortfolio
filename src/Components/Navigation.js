@@ -1,15 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import pdf from "../assets/resumewcover.pdf";
+import home from "../images/home.png";
 
 function Navigation() {
   return (
     <>
-      <nav>
+      <nav className="bg-slate-700">
         <div id="buttonSeperation">
           <ul id="homeButton">
             <li>
-              <Link to="/">🏠</Link>
+              <a href={home} target="_blank" rel="noreferrer"></a>
             </li>
           </ul>
           <ul id="navItems">
