@@ -24,7 +24,7 @@ function Navigation() {
             </li>
 
             <li id="buttons">
-              <a href={pdf} target="_blank">
+              <a href={pdf} target="_blank" rel="noreferrer">
                 Resume
               </a>
             </li>

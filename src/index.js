@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-const element = <FontAwesomeIcon icon={faCoffee} />;
+// const element = <FontAwesomeIcon icon={faCoffee} />;
 //const root = ReactDOM.createRoot(document.getElementById("root"));
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

@@ -1,5 +1,4 @@
 import React from "react";
-import Photo from "../images/mahFace.png";
 import { motion } from "framer-motion";
 
 function Landing() {

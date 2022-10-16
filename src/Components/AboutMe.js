@@ -17,11 +17,11 @@ function AboutMe() {
               <p id="aboutTitle">{/* <h2></h2> */}</p>
               <p id="pageText">
                 My name is Eric, I am a software developer based out of
-                Annapolis, MD. When I'm not asynchronous teaching with
-                University of Conneticut, I'm working on personal projects. If
-                you would like to check those out, stop by the "Projects" tab in
-                the nav! Please also check out the contact page and reach out if
-                you have any questions.
+                Annapolis, MD. When I&apos;m not asynchronous teaching with
+                University of Conneticut, I&apos;m working on personal projects.
+                If you would like to check those out, stop by the
+                &quot;Projects&quot; tab in the nav! Please also check out the
+                contact page and reach out if you have any questions.
               </p>
             </div>
           </div>{" "}
