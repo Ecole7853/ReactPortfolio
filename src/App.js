@@ -1,6 +1,7 @@
 import "./App.css";
+import "./reset.css";
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./Components/Header";
 import ContactMe from "./Components/ContactMe";
 import AboutMe from "./Components/AboutMe";
@@ -13,18 +14,12 @@ function App() {
     <Router>
       <div id="appContainer">
         <Header />
-        <Route exact path="/">
-          <Landing />
-        </Route>
-        <Route exact path="/AboutMe">
-          <AboutMe />
-        </Route>
-        <Route exact path="/ContactMe">
-          <ContactMe />
-        </Route>
-        <Route exact path="/Project">
-          <Project />
-        </Route>
+        <Routes>
+          <Route path="/" element={<Landing />}></Route>
+          <Route path="/AboutMe" element={<AboutMe />}></Route>
+          <Route path="/ContactMe" element={<ContactMe />}></Route>
+          <Route path="/Project" element={<Project />}></Route>
+        </Routes>
         <Footer />
       </div>
     </Router>
