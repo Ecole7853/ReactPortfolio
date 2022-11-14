@@ -15,7 +15,7 @@ function AboutMe() {
           <div id="aboutMe">
             <div id="aboutCont">
               <p id="aboutTitle">{/* <h2></h2> */}</p>
-              <p id="pageText">
+              <p id="pageText" className="text-gray-100">
                 My name is Eric, I am a software developer based out of
                 Annapolis, MD. When I&apos;m not asynchronous teaching with
                 University of Conneticut, I&apos;m working on personal projects.

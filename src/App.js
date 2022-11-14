@@ -11,7 +11,11 @@ import Project from "./Components/Project";
 function App() {
   return (
     <Router>
-      <div id="appContainer" className="bg-black h-4 w-3">
+      <div
+        id="appContainer"
+        className="overflow-hidden bg-black ... min-h-screen max-h-screen w-FULL"
+        
+      >
         <Header />
         <Routes>
           <Route path="/" element={<Landing />}></Route>
