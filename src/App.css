@@ -2,4 +2,44 @@
     height: 100vh;
     width: 100vw;
   }
-  
+  #waviy {
+    position: relative;
+  }
+  #waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 60px;
+    /* text-transform: uppercase; */
+    animation: flip 4s infinite;
+    animation-delay: calc(.4s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+
+  #w {
+    --i:1
+  }
+  #e1 {
+    --i:2
+  }
+  #l {
+    --i:3
+  }
+  #c {
+    --i:4
+  }
+  #o {
+    --i:5
+  }
+  #m {
+    --i:6
+  }
+  #e2 {
+    --i:7
+  }
+  #excl {
+    --i:8
+  }

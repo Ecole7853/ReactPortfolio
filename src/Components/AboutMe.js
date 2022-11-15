@@ -40,7 +40,7 @@ function AboutMe() {
             <div id="contThree" className="flex flex-row my-5">
               <div id="imageThree" className="max-w-xs opacity-50 mt-5"> <img src={cityridge}>
               </img></div>
-              <p id="textThree" className="text-white text-2xl max-w-lg text-blue-300 text-center space-x-10 mb-10 ml-5">This is City Ridge, it&apos;s a series of multi-family dwelling units in Washington, DC that I worked on as my last project at my previous career, the building in the bottom right of the picture was mine! You can see a virtual tour, showing the size and scope of this project by googling &quot;City Ridge&quot;</p>
+              <p id="textThree" className="text-white text-2xl text-blue-300 max-w-lg text-center space-x-10 mb-10 ml-5">This is City Ridge, it&apos;s a series of multi-family dwelling units in Washington, DC that I worked on as my last project at my previous career, the building in the bottom right of the picture was mine! You can see a virtual tour, showing the size and scope of this project by googling &quot;City Ridge&quot;</p>
             </div>
             <div id="fullCont3" className="flex flex-row">
             <div id="contFour" className="flex flex-col my-5">

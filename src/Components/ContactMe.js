@@ -13,16 +13,16 @@ function ContactMe() {
       >
         <div id="contactContainer" className="flex flex-row justify-center space-x-20 mt-20">
           <div id="contactCont" className="flex flex-col text-center">
-            <p className="text-white text-2xl max-w-lg mx-10 my-10">
+            <p className="text-white text-2xl max-w-lg mx-10 my-10 text-blue-300">
              Github/Linkedin/Facebook can all be seen on the bottom of the page, as direct links to mine. Phone number/email are here aswell, please reach out! I also accept homing pigeons, folded papers with notes passed through class, can and string (you provide), telegram, and drive-by-yelling.  
             </p> 
             <ul id="contList">
               <li>
-                <a id="contactLink" href="mailto:ewc1561@gmail.com"className="text-white text-2xl max-w-lg mx-10 my-10">
+                <a id="contactLink" href="mailto:ewc1561@gmail.com"className="text-blue-300 text-2xl max-w-lg mx-10 my-10">
                   ewc1561@gmail.com
                 </a>
               </li>
-              <li className="text-white text-2xl max-w-lg mx-10 my-10">Cellphone: 443-909-8177</li>
+              <li className="text-blue-300 text-2xl max-w-lg mx-10 my-10">Cellphone: 443-909-8177</li>
             </ul>
             </div>
       
