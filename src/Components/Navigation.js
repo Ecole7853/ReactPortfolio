@@ -69,11 +69,11 @@ render(){
             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>
             <ul id="menu" className="hidden">
-              <li className="text-2xl text-black list-none flex whitespace-nowrap bg-zinc-600"><Link to="/">Home</Link></li>
-              <li className="text-2xl text-black list-none flex whitespace-nowrap bg-zinc-600"><Link to="/AboutMe">About</Link></li>
-              <li className="text-2xl text-black list-none flex whitespace-nowrap bg-zinc-600"><Link to="/Project">Projects</Link></li>
-              <li className="text-2xl text-black list-none flex whitespace-nowrap bg-zinc-600"><Link to="/Contact">Contact Me</Link></li>
-              <li className="text-2xl text-black list-none flex whitespace-nowrap bg-zinc-600">
+              <li className="text-2xl text-black list-none flex whitespace-nowrap bg-gray-600"><Link to="/">Home</Link></li>
+              <li className="text-2xl text-black list-none flex whitespace-nowrap bg-gray-600"><Link to="/AboutMe">About</Link></li>
+              <li className="text-2xl text-black list-none flex whitespace-nowrap bg-gray-600"><Link to="/Project">Projects</Link></li>
+              <li className="text-2xl text-black list-none flex whitespace-nowrap bg-gray-600"><Link to="/Contact">Contact Me</Link></li>
+              <li className="text-2xl text-black list-none flex whitespace-nowrap bg-gray-600">
                 <a href={pdf} target="_blank" rel="noreferrer">
                 Resume
                 </a>
