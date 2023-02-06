@@ -7,8 +7,18 @@ import home from "../images/home.png";
 
 //function Navigation() {
 class Navigation extends React.Component{
-  handleClick(){
-    document.getElementById("menu").style.display = "block";
+  // handleClick(){
+  //   console.log(document.getElementById("menu").display)
+  //   if(document.getElementById("menu").style.display === "hidden"){
+  //     document.getElementById("menu").style.display = "block";
+  //   } else document.getElementById("menu").style.display = "hidden";
+
+  // }
+
+    handleClick(e) {
+    e.preventDefault();
+    const list = document.getElementById('menu').classList;
+    list.toggle("hidden");
   }
 
 render(){
@@ -19,7 +29,7 @@ render(){
         <div id="buttonSeperation" className="flex flex-column justify-between">
           <ul id="homeButton" className="hidden h-20 mb-3 mt-7 my-5 pt-3 pb-4 pl-3 pr-4 rounded-md transition-all
    duration-1000 
-   ease-in-out hover:bg-zinc-400 md:block">
+   ease-in-out hover:bg-zinc-400 xl:block">
             <li>
               <Link to="/">
                 <img src={home}>
@@ -29,7 +39,7 @@ render(){
           </ul>
           <ul
             id="navItems"
-            className="md:inline-flex flex flex-row justify-between align-between p-4 m-4 hidden"
+            className="xl:inline-flex flex flex-row justify-between align-between p-4 m-4 hidden"
           >
             <li id="buttons" className="text-2xl font-medium text-gray-500 pt-4 px-2 mx-1 pb-4 rounded-md transition-all
    duration-1000 
@@ -54,7 +64,7 @@ render(){
               </a>
             </li>
           </ul>
-          <div onClick={this.handleClick} className="md:hidden w-30 z-10">
+          <div onClick={this.handleClick} className="xl:hidden w-30 z-10">
             <svg className="w-24 flex align-center justify-center pl-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>

@@ -1,13 +1,47 @@
 import React from "react";
 import { motion } from "framer-motion";
-import HTMLFlipBook from "react-pageflip";
-import space from "../images/newspacetimes.png"
-import forum from "../images/forum.png" 
-import weather from "../images/weather.png" 
-import recipe from "../images/recipe.png" 
+// import HTMLFlipBook from "react-pageflip";
+// import space from "../images/newspacetimes.png"
+// import forum from "../images/forum.png"
+// import weather from "../images/weather.png"
+// import recipe from "../images/recipe.png"
 
 function Project() {
-  console.log();
+  let projects = [
+    {
+      id:1,
+      title: "New Space Times",
+      hrefpath: "https://obscure-tor-43671.herokuapp.com/",
+      image: "./images/SpaceApp.png",
+      alt: "Space Image",
+      github: "https://github.com/Ecole7853/NewSpaceTimes",
+    },
+    {
+      id:2,
+      title: "Peer Connections",
+      hrefpath: "https://boiling-lowlands-90882.herokuapp.com/",
+      image: "./images/PeerConnections.png",
+      alt: "peer-connections",
+      github: "https://github.com/ryanascherr/peer-connections",
+    },
+    {
+      id:3,
+      title: "Multi-city Weather tracking App",
+      hrefpath: "https://ecole7853.github.io/WeatherPage/",
+      image: "./images/WeatherApp.png",
+      alt: "Weather Generator App Image",
+      github: "https://github.com/Ecole7853/WeatherPage",
+    },
+    {
+      id:4,
+      title: "Password Generator",
+      hrefpath: "https://ecole7853.github.io/PasswordGenerator/",
+      image: "./images/PasswordGen.png",
+      alt: "Password Generator Image",
+      github: "https://github.com/Ecole7853/PasswordGenerator",
+    },
+  ];
+
   return (
     <>
       <motion.div
@@ -16,7 +50,7 @@ function Project() {
         exit={{ opacity: 0 }}
         transition={{ duration: 1.5 }}
       >
-        <HTMLFlipBook width={938} height={675} className="workBook text-blue-300 bg-black object-fill ml-5 mt-5">
+        {/* <HTMLFlipBook width={750} height={450} className="text-blue-300 bg-black">
           <div className="workBookPage1 flex flex-col">
             ~Page 1~
             <div>
@@ -24,7 +58,7 @@ function Project() {
                 </img>
             </div>
             <p className="text-center text-xl ml-10">
-              This is a news board, dedicated to space, utilizing API&apos;s that feature spaceX and Nasa, including photos from the new Perseverance Rover. It provides news, and a &quot;nasa photo of the day&quot; that user can save to their profile if they like! Please check it out, feel free to make a bogus user I haven&apos;t implemented any email verification, some of the stories are amazing. Also features an amazing photo of our dear pal, Hal. This project was not completed alone, and had 2 others, for my part, the theme, and a large portion of Javascript was completed, also the base react app.   
+              a news board,utilizing API&apos;s that feature spaceX and Nasa. It provides news, and a &quot;nasa photo of the day&quot; that users can save. Please check it out, I haven&apos;t implemented email verification, so you can make a bogus account.    
             </p>
            <a className="text-red-400 flex flex-col text-center text-3xl" href="https://newspacetimes1561.herokuapp.com/">Check it out here!</a>
           </div>
@@ -62,7 +96,19 @@ function Project() {
             <a className="text-red-400 flex flex-col text-center text-3xl" href="https://synag.github.io/project_1_recipe_mixer/index.html">Check it out here!</a>
           </div>
     
-        </HTMLFlipBook> 
+        </HTMLFlipBook> */}
+        <div className="container mx-auto">
+          <div className="flex flex-wrap ">
+              {projects.map((project) => (
+                <div key={project.id} className="text-xl text-white my-20">
+                 <div className="flex align-center justify-center my-2 text-2xl"> {project.title} </div>
+                 <a href={project.hrefpath} target="_blank" rel="noreferrer" className="flex align-center justify-center my-2"> {project.hrefpath} </a>
+                 <a href={project.github} target="_blank" rel="noreferrer" className="flex align-center justify-center my-2"> {project.github} </a>
+                 <img className="flex align-center justify-center my-2" src={project.image} alt={project.alt} href={project.hrefpath} target="_blank" rel="noreferrer"/>
+                </div>
+              ))}
+          </div>
+        </div>
       </motion.div>
     </>
   );

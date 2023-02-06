@@ -1,7 +1,6 @@
 {
   "name": "reactfolder",
   "version": "0.1.0",
-  "homepage": "https://ecole7853.github.io/ReactPortfolio",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.2",

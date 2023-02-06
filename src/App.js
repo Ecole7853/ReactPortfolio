@@ -13,12 +13,12 @@ function App() {
     <Router>
       <div
         id="appContainer"
-        className="overflow-hidden bg-black ... min-h-screen max-h-screen w-FULL"
+        className="xl:overflow-hidden bg-black ... w-FULL"
         
       >
         <Header />
         <Routes>
-          <Route path="" element={<Landing />}></Route>
+          <Route path="/" element={<Landing />}></Route>
           <Route path="/AboutMe" element={<AboutMe />}></Route>
           <Route path="/Contact" element={<ContactMe />}></Route>
           <Route path="/Project" element={<Project />}></Route>

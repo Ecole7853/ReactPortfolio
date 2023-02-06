@@ -11,9 +11,9 @@ function ContactMe() {
         exit={{ opacity: 0 }}
         transition={{ duration: 1.5 }}
       >
-        <div id="contactContainer" className="flex flex-row justify-center space-x-20 mt-20">
+        <div id="contactContainer" className="flex flex-wrap justify-center space-x-20 mt-20">
           <div id="contactCont" className="flex flex-col text-center">
-            <p className="text-white text-2xl max-w-lg mx-10 my-10 text-blue-300">
+            <p className="text-2xl max-w-lg mx-10 my-10 text-blue-300">
              Github/Linkedin/Facebook can all be seen on the bottom of the page, as direct links to mine. Phone number/email are here aswell, please reach out! I also accept homing pigeons, folded papers with notes passed through class, can and string (you provide), telegram, and drive-by-yelling.  
             </p> 
             <ul id="contList">
@@ -28,7 +28,7 @@ function ContactMe() {
       
           <div id="contactTypes" className="flex text-center justify-center">
             <div id="contImg">
-              <img src={Photo} alt="image of code" className="mx-10 my-10 max-h-xl max-w-xl"/>
+              <img src={Photo} alt="image of code" className="mx-10 my-10 ml-20 max-h-xl max-w-xl"/>
             </div>
           </div>
         </div>

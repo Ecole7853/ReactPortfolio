@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.39c02573.chunk.css",
-    "main.js": "/react-gh-pages/static/js/main.fe374774.chunk.js",
-    "main.js.map": "/react-gh-pages/static/js/main.fe374774.chunk.js.map",
-    "runtime-main.js": "/react-gh-pages/static/js/runtime-main.fed2f460.js",
-    "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.fed2f460.js.map",
-    "static/js/2.837ec478.chunk.js": "/react-gh-pages/static/js/2.837ec478.chunk.js",
-    "static/js/2.837ec478.chunk.js.map": "/react-gh-pages/static/js/2.837ec478.chunk.js.map",
-    "static/js/3.75186835.chunk.js": "/react-gh-pages/static/js/3.75186835.chunk.js",
-    "static/js/3.75186835.chunk.js.map": "/react-gh-pages/static/js/3.75186835.chunk.js.map",
-    "index.html": "/react-gh-pages/index.html",
-    "static/css/main.39c02573.chunk.css.map": "/react-gh-pages/static/css/main.39c02573.chunk.css.map",
-    "static/js/2.837ec478.chunk.js.LICENSE.txt": "/react-gh-pages/static/js/2.837ec478.chunk.js.LICENSE.txt",
-    "static/media/resumewcover.8184500d.pdf": "/react-gh-pages/static/media/resumewcover.8184500d.pdf"
+    "main.css": "/static/css/main.aa8ebaca.css",
+    "main.js": "/static/js/main.de5bd271.js",
+    "static/js/787.9434b3aa.chunk.js": "/static/js/787.9434b3aa.chunk.js",
+    "static/media/recipe.png": "/static/media/recipe.3c42d89b1b7d49eceeec.png",
+    "static/media/mahFacePartDuex.jpg": "/static/media/mahFacePartDuex.9dd884731d3d102ea4bc.jpg",
+    "static/media/newspacetimes.png": "/static/media/newspacetimes.4663bcfebbfbf8a64104.png",
+    "static/media/resumewcover.pdf": "/static/media/resumewcover.8184500db6134218e89c.pdf",
+    "static/media/forum.png": "/static/media/forum.a83d8b84dd90f1a46c97.png",
+    "static/media/weather.png": "/static/media/weather.dcd9f0ed97cc12256ad5.png",
+    "static/media/contactCode2.png": "/static/media/contactCode2.febe50536e08e107f97a.png",
+    "index.html": "/index.html",
+    "main.aa8ebaca.css.map": "/static/css/main.aa8ebaca.css.map",
+    "main.de5bd271.js.map": "/static/js/main.de5bd271.js.map",
+    "787.9434b3aa.chunk.js.map": "/static/js/787.9434b3aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.fed2f460.js",
-    "static/js/2.837ec478.chunk.js",
-    "static/css/main.39c02573.chunk.css",
-    "static/js/main.fe374774.chunk.js"
+    "static/css/main.aa8ebaca.css",
+    "static/js/main.de5bd271.js"
   ]
 }
