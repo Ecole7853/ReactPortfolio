@@ -18,11 +18,11 @@ function Project() {
     },
     {
       id:2,
-      title: "Peer Connections",
-      hrefpath: "https://boiling-lowlands-90882.herokuapp.com/",
-      image: "./images/PeerConnections.png",
-      alt: "peer-connections",
-      github: "https://github.com/ryanascherr/peer-connections",
+      title: "Code Quiz",
+      hrefpath: "https://ecole7853.github.io/CodeQuiz/",
+      image: "./images/CodeQuiz.png",
+      alt: "code-quiz",
+      github: "https://github.com/Ecole7853/CodeQuiz",
     },
     {
       id:3,

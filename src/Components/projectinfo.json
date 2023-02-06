@@ -1,30 +1,37 @@
 [
-    {
-        "title":"New Space Times",
-        "hrefpath":"https://obscure-tor-43671.herokuapp.com/",
-        "image":"./images/SpaceApp.png",
-        "alt":"Space Image",
-        "github":"https://github.com/Ecole7853/NewSpaceTimes"
-    },
-    {
-        "title":"Peer Connections",
-        "hrefpath":"https://boiling-lowlands-90882.herokuapp.com/",
-        "image":"./images/PeerConnections.png",
-        "alt":"peer-connections",
-        "github":"https://github.com/ryanascherr/peer-connections"
-    },
-    {
-        "title":"Multi-city Weather tracking App",
-        "hrefpath":"https://ecole7853.github.io/WeatherPage/",
-        "image":"./images/WeatherApp.png",
-        "alt":"Weather Generator App Image",
-        "github":"https://github.com/Ecole7853/WeatherPage"
-    },
-    {
-        "title":"Password Generator",
-        "hrefpath":"https://ecole7853.github.io/PasswordGenerator/",
-        "image":"./images/PasswordGen.png",
-        "alt":"Password Generator Image",
-        "github":"https://github.com/Ecole7853/PasswordGenerator"
-    }
+  {
+    "title": "New Space Times",
+    "hrefpath": "https://obscure-tor-43671.herokuapp.com/",
+    "image": "./images/SpaceApp.png",
+    "alt": "Space Image",
+    "github": "https://github.com/Ecole7853/NewSpaceTimes"
+  },
+  {
+    "title": "Peer Connections",
+    "hrefpath": "https://boiling-lowlands-90882.herokuapp.com/",
+    "image": "./images/PeerConnections.png",
+    "alt": "peer-connections",
+    "github": "https://github.com/ryanascherr/peer-connections"
+  },
+  {
+    "title": "Multi-city Weather tracking App",
+    "hrefpath": "https://ecole7853.github.io/WeatherPage/",
+    "image": "./images/WeatherApp.png",
+    "alt": "Weather Generator App Image",
+    "github": "https://github.com/Ecole7853/WeatherPage"
+  },
+  {
+    "title": "Multi-city Weather tracking App",
+    "hrefpath": "https://ecole7853.github.io/WeatherPage/",
+    "image": "./images/WeatherApp.png",
+    "alt": "Weather Generator App Image",
+    "github": "https://github.com/Ecole7853/WeatherPage"
+  },
+  {
+    "title": "Password Generator",
+    "hrefpath": "https://ecole7853.github.io/PasswordGenerator/",
+    "image": "./images/PasswordGen.png",
+    "alt": "Password Generator Image",
+    "github": "https://github.com/Ecole7853/PasswordGenerator"
+  }
 ]
