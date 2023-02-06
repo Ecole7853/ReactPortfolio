@@ -11,7 +11,7 @@ function Project() {
     {
       id:1,
       title: "New Space Times",
-      hrefpath: "https://obscure-tor-43671.herokuapp.com/",
+      hrefpath: "https://newspacetimes.herokuapp.com/react-space-app/newsboard",
       image: "./images/SpaceApp.png",
       alt: "Space Image",
       github: "https://github.com/Ecole7853/NewSpaceTimes",
